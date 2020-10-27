@@ -3,7 +3,7 @@ using GraphQL.Language.AST;
 using GraphQL.Types;
 using GraphQL.EntityFramework;
 
-class ConnectorGraph :
+public class ConnectorGraph :
     EnumerationGraphType<Connector>
 {
     public ConnectorGraph()

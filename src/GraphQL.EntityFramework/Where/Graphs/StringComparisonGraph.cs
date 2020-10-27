@@ -2,7 +2,7 @@
 using GraphQL.Language.AST;
 using GraphQL.Types;
 
-class StringComparisonGraph :
+public class StringComparisonGraph :
     EnumerationGraphType<StringComparison>
 {
     public override object? ParseLiteral(IValue value)
